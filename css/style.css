@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+}
+
+#user-profile{
+    position: fixed;
+    margin:auto;
+    margin-top: 6%;
+    border: 3px solid black;
+    position: relative;
+    text-align: center;
+    background-color: red;
+    width: 45em;
+    height: 30em;
+    background-image: url('../images/div.jpg');
+    background-size: cover;
+    }
+
+    .profile-pic{
+        width: 160px;
+        height: 80px;
+        margin: auto;
+        padding-top: 18%;
+        position: relative;
+        }
+
+.profile-pic img{
+       border: 2px solid white;
+       border-radius: 50%;
+       height: 10em;
+       width: 10em;
+    }
+
+#font-set {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#user-prof-bk{
+    width: 40em;
+    height: 28em;
+    
+}
+.centered-text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.social-icon a{
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 4px;
+    margin-top: 25%;
+}
